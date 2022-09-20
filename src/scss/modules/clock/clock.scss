@@ -1,0 +1,33 @@
+#clock {
+	color: black;
+	font-size: 80px;
+
+	width: 500px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	margin: 0 auto;
+    & > div {
+        width: 90px;
+        height: 120px;
+    }
+    .clock__wrapper-slider {
+        overflow: hidden auto;
+        scroll-snap-type: y mandatory;
+        display: flex;
+        flex-direction: column;
+        height: 300%;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    span {
+        transform: translateY(120px);
+        scroll-snap-align: center;
+    }
+    .start-button {
+        width: 150px;
+        height: 75px;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,25 @@
+@import "./modules/fonts.scss";
+@import "./modules/variables.scss";
+
+//modules
+@import "./modules/button/button.scss";
+
+// main styles
+@import "./modules/header/header.scss";
+@import "./modules/active-tasks/active-tasks.scss";
+@import "./modules/clock/clock.scss";
+@import "./modules/curves-svg/curves.scss";
+
+
+body {
+	position: relative;
+	padding-top: 20px;
+	height: 100vh;
+}
+
+main {
+	padding-top: 100px;
+	padding-bottom: 100px; 
+	display: flex;
+	height: 100%;
+}

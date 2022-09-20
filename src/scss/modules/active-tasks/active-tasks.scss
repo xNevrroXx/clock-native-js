@@ -1,0 +1,19 @@
+.active-tasks {
+    padding-right: 5px;
+    list-style: none;
+    width: 350px;
+    &__list-wrapper {
+        padding: 5px 10px 5px 10px;
+        box-shadow: 1px 1px 10px 0px rgb(0, 0, 0);
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+    &__list-tasks {
+        li {
+            background-image: linear-gradient(to right, transparent 0%, brown, transparent 100%);
+            div {
+                display: inline-block;
+            }
+        }
+    }
+}
